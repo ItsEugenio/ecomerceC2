@@ -1,0 +1,48 @@
+
+.navbar{
+    display: flex;
+}
+.contLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titNav{
+    color: #00a8e8;
+}
+.imgCard{
+    width: 30%;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    transition: 1s all ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contEditar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em;
+    padding: 1em;
+    width: 30em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
